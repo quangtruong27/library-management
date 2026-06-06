@@ -1,4 +1,4 @@
-package com.quangtruong.librarymanagement.entity;
+package com.quangtruong.library_management.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -7,7 +7,6 @@ import lombok.experimental.FieldDefaults;
 import java.math.BigDecimal;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.UUID;
 
 @Getter
 @Setter
