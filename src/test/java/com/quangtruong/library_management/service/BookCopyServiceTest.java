@@ -1,16 +1,15 @@
-package com.quangtruong.librarymanagement.service.impl;
+package com.quangtruong.library_management.service;
 
-import com.quangtruong.librarymanagement.dto.book.BookCopyResponse;
-import com.quangtruong.librarymanagement.dto.bookcopy.BookCopyDetailResponse;
-import com.quangtruong.librarymanagement.dto.bookcopy.BookCopyStatusUpdateRequest;
-import com.quangtruong.librarymanagement.dto.borrow.BorrowHistoryResponse;
-import com.quangtruong.librarymanagement.entity.*;
-import com.quangtruong.librarymanagement.exception.AppException;
-import com.quangtruong.librarymanagement.exception.ErrorCode;
-import com.quangtruong.librarymanagement.mapper.IBookCopyMapper;
-import com.quangtruong.librarymanagement.repository.IBookCopyRepository;
-import com.quangtruong.librarymanagement.repository.IBorrowDetailRepository;
-import com.quangtruong.librarymanagement.service.IBookCopyService;
+import com.quangtruong.library_management.dto.bookcopy.BookCopyResponse;
+import com.quangtruong.library_management.dto.bookcopy.BookCopyDetailResponse;
+import com.quangtruong.library_management.dto.bookcopy.BookCopyStatusUpdateRequest;
+import com.quangtruong.library_management.entity.*;
+import com.quangtruong.library_management.exception.AppException;
+import com.quangtruong.library_management.exception.ErrorCode;
+import com.quangtruong.library_management.mapper.IBookCopyMapper;
+import com.quangtruong.library_management.repository.IBookCopyRepository;
+import com.quangtruong.library_management.repository.IBorrowDetailRepository;
+import com.quangtruong.library_management.service.impl.BookCopyService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -28,7 +27,8 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 class BookCopyServiceTest {
 
