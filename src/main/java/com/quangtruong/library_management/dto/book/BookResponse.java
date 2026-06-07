@@ -1,5 +1,6 @@
 package com.quangtruong.library_management.dto.book;
 
+import com.quangtruong.library_management.dto.bookcopy.BookCopyResponse;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
