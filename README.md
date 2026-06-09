@@ -560,11 +560,11 @@ Follow these instructions to clone, build, and run the project locally.
 The application can be configured dynamically at runtime using the following environment variables:
 
 | Variable Name | Description | Default Value |
-| --- | --- | --- |
+| --- | --- | -- |
 | `SPRING_DATASOURCE_URL` | Database connection URL | `jdbc:mysql://localhost:3306/library_management` |
 | `SPRING_DATASOURCE_USERNAME` | Database login username | `root` |
-| `SPRING_DATASOURCE_PASSWORD` | Database login password | `123456` |
-| `JWT_SIGNER_KEY` | Symmetric signature key (256-bit hex) | `0418f54ba86755f0a1ce5...` |
+| `SPRING_DATASOURCE_PASSWORD` | Database login password | `your_database_password` |
+| `JWT_SIGNER_KEY` | Symmetric signature key (256-bit hex) | `your_jwt_secret_key` |
 | `SERVER_PORT` | HTTP port server will listen on | `8080` |
 | `SPRING_FLYWAY_ENABLED` | Toggle schema auto-migration | `true` |
 
