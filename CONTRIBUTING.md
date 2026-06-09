@@ -4,7 +4,7 @@ Thank you for your interest in contributing to our project! We welcome community
 
 ---
 
-## 🌿 Git Workflow Strategy
+## Git Workflow Strategy
 We follow the **Git Flow** strategy for branching and releases:
 
 1.  **Fork** the repository and clone it locally.
@@ -59,7 +59,7 @@ We follow the **Git Flow** strategy for branching and releases:
 
 ---
 
-## 🧪 Submission Checklist
+## Submission Checklist
 Before submitting your pull request, please double-check that you have:
 - [ ] Checked that all unit tests run successfully.
 - [ ] Written clean code and removed unnecessary logs or comments.
