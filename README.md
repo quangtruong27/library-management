@@ -1,4 +1,4 @@
-# 📚 Library Management System (LMS) Backend
+# Library Management System (LMS) Backend
 
 [![Java Version](https://img.shields.io/badge/Java-21-orange.svg?style=for-the-badge&logo=openjdk)](https://openjdk.org/projects/jdk/21/)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.0.5-brightgreen.svg?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
@@ -12,7 +12,7 @@ A production-ready, enterprise-grade backend for a **Library Management System (
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Project Overview](#-project-overview)
 2. [Project Architecture](#-project-architecture)
 3. [Folder Structure](#-folder-structure)
@@ -30,7 +30,7 @@ A production-ready, enterprise-grade backend for a **Library Management System (
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This backend is engineered to address the complexities of modern library operations. It is optimized for performance, scalability, and security, making it a stellar demonstration of modern Java backend engineering capabilities.
 
@@ -46,7 +46,7 @@ This backend is engineered to address the complexities of modern library operati
 
 ---
 
-## 🧱 Project Architecture
+## Project Architecture
 
 The application is architected around **Domain-Driven Design (DDD)** and **Clean Architecture** patterns to ensure high modularity, maintainability, and clean separation of concerns.
 
@@ -92,7 +92,7 @@ The application is architected around **Domain-Driven Design (DDD)** and **Clean
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```text
 librarymanagement/
@@ -130,7 +130,7 @@ librarymanagement/
 
 ---
 
-## 💾 Database Design & ERD
+## Database Design & ERD
 
 The database schema is optimized for relational integrity, data normalization, and fast retrieval. 
 
@@ -366,7 +366,7 @@ erDiagram
 
 ---
 
-## 🔄 Sequence Diagrams
+## Sequence Diagrams
 
 To demonstrate how the modules work together, here is the sequence flow for a standard **Book Reservation & Borrowing Lifecycle**:
 
@@ -408,7 +408,7 @@ sequenceDiagram
 
 ---
 
-## 🔒 Security & Authentication Design
+## Security & Authentication Design
 
 The application's security structure relies on a robust implementation of Spring Security and OAuth2 Resource Server.
 
@@ -445,7 +445,7 @@ Client Request  --->  [Authorization: Bearer <token>]
 
 ---
 
-## 📑 API Documentation
+## API Documentation
 
 The REST APIs are fully documented and follow HTTP protocol standards, including appropriate REST verbs and status codes.
 
@@ -475,7 +475,7 @@ The REST APIs are fully documented and follow HTTP protocol standards, including
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 Quality assurance is integrated into the build pipeline using JUnit 5, Mockito, and Spring Boot testing tools.
 
@@ -555,7 +555,7 @@ Follow these instructions to clone, build, and run the project locally.
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 The application can be configured dynamically at runtime using the following environment variables:
 
@@ -570,7 +570,7 @@ The application can be configured dynamically at runtime using the following env
 
 ---
 
-## 🐳 Deployment Guide
+## Deployment Guide
 
 ### 1. Dockerization
 Create a `Dockerfile` in the root directory:
@@ -601,7 +601,7 @@ Developer Push ──> GitHub Actions ──> Run Tests ──> Build Docker Ima
 
 ---
 
-## 🌿 Git Flow Strategy
+## Git Flow Strategy
 
 We implement the standard Git Flow workflow to coordinate team developments:
 
@@ -613,7 +613,7 @@ We implement the standard Git Flow workflow to coordinate team developments:
 
 ---
 
-## 📊 Project Statistics
+## Project Statistics
 *   **Language Distribution:** 100% Java
 *   **Frameworks:** Spring Boot 4.0.5, Spring Security, JPA Hibernate
 *   **Architecture Pattern:** Clean Architecture / DDD
@@ -621,7 +621,7 @@ We implement the standard Git Flow workflow to coordinate team developments:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 1.  **Caching layer:** Integrate Redis to cache hot book records and category details to reduce database load.
 2.  **Elasticsearch integration:** Enhance book searching by replacing simple database query queries with a full-text search engine.
 3.  **Message Queue:** Implement RabbitMQ/Kafka for asynchronous operations like sending notification emails when books are overdue.
